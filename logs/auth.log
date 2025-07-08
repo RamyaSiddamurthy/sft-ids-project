@@ -12,3 +12,100 @@ INFO:werkzeug:127.0.0.1 - - [30/Jun/2025 17:10:29] "[32mPOST /login HTTP/1.1[0
 INFO:werkzeug:127.0.0.1 - - [30/Jun/2025 17:10:29] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [30/Jun/2025 17:10:35] "[32mGET /logout HTTP/1.1[0m" 302 -
 INFO:werkzeug:127.0.0.1 - - [30/Jun/2025 17:10:35] "GET /login HTTP/1.1" 200 -
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:18:55] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:18:55] "GET /login HTTP/1.1" 200 -
+WARNING:root:2025-07-08 15:19:03.292056 - FAILED login attempt for user: a
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:19:03] "POST /login HTTP/1.1" 200 -
+WARNING:root:2025-07-08 15:19:10.009777 - FAILED login attempt for user: av
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:19:10] "POST /login HTTP/1.1" 200 -
+WARNING:root:2025-07-08 15:19:14.985938 - FAILED login attempt for user: dd
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:19:14] "POST /login HTTP/1.1" 200 -
+WARNING:root:2025-07-08 15:19:19.939769 - FAILED login attempt for user: dc
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:19:19] "POST /login HTTP/1.1" 200 -
+WARNING:root:2025-07-08 15:19:25.127757 - FAILED login attempt for user: cd
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:19:25] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:19:29] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:19:40] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:19:40] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:20:22] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:20:22] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:21:46] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:21:59] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\DELL\\source\\repos\\project\\sft-ids-project\\app\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:25:47] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:25:47] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\DELL\\source\\repos\\project\\sft-ids-project\\app\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\DELL\\source\\repos\\project\\sft-ids-project\\app\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:28:48] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\DELL\\source\\repos\\project\\sft-ids-project\\app\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:17] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:18] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:18] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:18] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=cOZW1yGkv2JWalJTkamF HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:18] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:22] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=cOZW1yGkv2JWalJTkamF HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\DELL\\source\\repos\\project\\sft-ids-project\\app\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:44] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:44] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:44] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:45] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=UZlom5eTKbWWumoubUJg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:51] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:51] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:51] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:51] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:29:51] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=UZlom5eTKbWWumoubUJg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\DELL\\source\\repos\\project\\sft-ids-project\\app\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 108-035-627
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:30:29] "GET /login HTTP/1.1" 200 -
+INFO:root:2025-07-08 15:30:40.866587 - SUCCESS login for user: admin
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:30:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:30:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:30:48] "GET /audit HTTP/1.1" 200 -
