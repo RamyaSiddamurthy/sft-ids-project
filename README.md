@@ -15,3 +15,12 @@ This is a cybersecurity-focused project to build a secure file-sharing web app w
 - ✅ Added logging of login attempts (success and failure) to logs/auth.log using Python’s logging module
 - ✅ Implemented flash messages for invalid login feedback
 - ✅ Ensured no plaintext passwords stored, enhancing security
+
+## Day 3 Progress:
+- ✅ Implemented user registration (/register route) with password hashing
+- ✅ Integrated SQLite database using SQLAlchemy for storing user data
+- ✅ Added brute-force login protection with session-based attempt tracking and 10-minute cooldown lockout
+- ✅ Created admin-only audit page (/audit) to view login and registration logs
+- ✅ Enhanced login system with attempt limits, logging success and failures
+- ✅ Added flash messages for user feedback on registration, login errors, and blocks
+- ✅ Tested registration, login, and audit features to ensure security and usability
