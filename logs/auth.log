@@ -109,3 +109,41 @@ INFO:root:2025-07-08 15:30:40.866587 - SUCCESS login for user: admin
 INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:30:40] "[32mPOST /login HTTP/1.1[0m" 302 -
 INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:30:40] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [08/Jul/2025 15:30:48] "GET /audit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 144-825-440
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:08:56] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:08:57] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:08:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:2025-07-09 15:09:11.101597 - SUCCESS login for user: admin from IP: 127.0.0.1
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:12] "GET /audit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:23] "GET /login HTTP/1.1" 200 -
+WARNING:root:2025-07-09 15:09:30.742429 - FAILED login from IP: 127.0.0.1 (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0) for user: cccc
+WARNING:root:2025-07-09 15:09:30.742703 - Suspicious activity from 127.0.0.1: 1 failed attempts
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:30] "POST /login HTTP/1.1" 200 -
+WARNING:root:2025-07-09 15:09:34.233388 - FAILED login from IP: 127.0.0.1 (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0) for user: w
+WARNING:root:2025-07-09 15:09:34.233600 - Suspicious activity from 127.0.0.1: 2 failed attempts
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:34] "POST /login HTTP/1.1" 200 -
+WARNING:root:2025-07-09 15:09:39.358200 - FAILED login from IP: 127.0.0.1 (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0) for user: da
+WARNING:root:2025-07-09 15:09:39.358429 - Suspicious activity from 127.0.0.1: 3 failed attempts
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:39] "POST /login HTTP/1.1" 200 -
+WARNING:root:2025-07-09 15:09:44.821249 - FAILED login from IP: 127.0.0.1 (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0) for user: sefwe
+WARNING:root:2025-07-09 15:09:44.821498 - Suspicious activity from 127.0.0.1: 4 failed attempts
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:44] "POST /login HTTP/1.1" 200 -
+WARNING:root:2025-07-09 15:09:50.395654 - FAILED login from IP: 127.0.0.1 (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0) for user: aefdwe
+WARNING:root:2025-07-09 15:09:50.395859 - Suspicious activity from 127.0.0.1: 5 failed attempts
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:50] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:09:56] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:10:16] "GET /audit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:10:17] "GET /audit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:10:21] "GET /audit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:10:23] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:10:24] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jul/2025 15:10:33] "POST /login HTTP/1.1" 200 -

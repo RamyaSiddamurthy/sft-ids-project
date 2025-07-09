@@ -1,0 +1,15 @@
+<h2>Suspicious IP Tracker (Admin Only)</h2>
+<table border="1">
+    <tr>
+        <th>IP Address</th>
+        <th>Failed Attempts</th>
+        <th>Last Attempt</th>
+    </tr>
+    {% for ip, data in failed_ips.items() %}
+    <tr>
+        <td>{{ ip }}</td>
+        <td>{{ data.count }}</td>
+        <td>{{ data.last_attempt }}</td>
+    </tr>
+    {% endfor %}
+</table>

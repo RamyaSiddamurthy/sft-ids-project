@@ -24,3 +24,13 @@ This is a cybersecurity-focused project to build a secure file-sharing web app w
 - ✅ Enhanced login system with attempt limits, logging success and failures
 - ✅ Added flash messages for user feedback on registration, login errors, and blocks
 - ✅ Tested registration, login, and audit features to ensure security and usability
+
+## Day 4 Progress: Intrusion Detection System (IDS)
+- ✅ Captured and logged user IP address and browser agent on every login attempt
+- ✅ Implemented in-memory tracking of failed login attempts per IP address
+- ✅ Automatically blocked IPs with 5+ failed attempts for 15 minutes
+- ✅ Maintained separate session-based brute-force protection (1-minute lockout)
+- ✅ Logged suspicious activity with detailed IP data and timestamps to auth.log
+- ✅ Created an admin-only route /threats to view blocked/suspicious IPs
+- ✅ Built threats.html to show failed IPs, attempt counts, and last attempt time
+- ✅ Improved visibility and auditability of malicious behavior within the app
